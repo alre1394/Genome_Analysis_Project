@@ -14,11 +14,11 @@
 module load bioinfo-tools
 module load trimmomatic/0.39
 
-#PATHS
+#PATHS USED
 export RAW="/proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023"
 export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed"
 
-#TRIMMING SHORT DNA ILLUMINA READS FOR STRAINS DV3 HP126 R7
+#TRIMMING SHORT DNA ILLUMINA READS FOR STRAINS DV3, HP126, R7
 for code in SRR24413065 SRR24413071 SRR24413080
 do
 trimmomatic PE -phred33 -threads 6\
@@ -30,8 +30,7 @@ trimmomatic PE -phred33 -threads 6\
   MINLEN:100
 done
 
-#Trimming short RNA Illumina reads for strains HP126, DV3, R7
-
+#TRIMMING SHORT RNA ILLUMINA READS FOR STRAIN HP126, DV3, R7
 for code in SRR24516456 SRR24516457 SRR24516458 SRR24516459 SRR24516460 SRR24516461 SRR24516462 SRR24516463 SRR24516464
 do
 trimmomatic PE -phred33 -threads 6 \

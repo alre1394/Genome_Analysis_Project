@@ -10,14 +10,14 @@
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
 #SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/code_display/pre.trim.qc.out"
 
-#Importing modules
+#IMPORTING MODULES
 module load bioinfo-tools
 module load FastQC/0.11.9
 
-#Paths used
+#PATHS USED
 export RAW="/proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023"
-export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/preprocessing/QC/pre_trim"
+export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/processing/QC/pre_trim"
 
-#QC of short reads before trimming
+#QC OF SHORT ILLUMINA READS BEFORE TRIMMING
 fastqc -o "$OUTPUT/DNA" -t 6 "$RAW/DNA_reads/short_reads/*.fastq.gz"
 fastqc -o "$OUTPUT/RNA" -t 6 "$RAW/RNA_reads/*.fastq.qz"

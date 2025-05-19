@@ -10,12 +10,14 @@
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
 #SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/code_display/post.trim.qc.out"
 
+#IMPORTING MODULES
 module load bioinfo-tools
 module load FastQC/0.11.9
 
+#PATHS USED
 export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed"
 export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/processing/QC/post_trim"
 
-#QC of short reads after trimming
+#QC OF SHORT ILLUMINA READS AFTER TRIMMING
 fastqc -o "$OUTPUT/DNA" -t 6 "$TRIMMED/DNA/*.fq.gz"
 fastqc -o "$OUTPUT/RNA" -t 6 "$TRIMMED/RNA/*.fq.gz"
