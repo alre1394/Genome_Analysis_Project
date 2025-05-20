@@ -8,7 +8,7 @@
 #SBATCH -J GA_assembly_alre1394
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
-#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/code_display/assembly.out"
+#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/00_code_display/assembly.out"
 
 #IMPRTING MODULES
 module load bioinfo-tools

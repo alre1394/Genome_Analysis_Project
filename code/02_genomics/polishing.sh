@@ -8,7 +8,7 @@
 #SBATCH -J GA_polishing_alre1394
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
-#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/code_display/polishing.out"
+#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/00_code_display/polishing.out"
 
 #IMPORTING MODULES
 module load bioinfo-tools
@@ -17,7 +17,7 @@ module load Pilon/1.24
 #PATHS USED
 export ASSEMBLY="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 
-ÂPOLISHING GENOME ASSEMBLIES
+#POLISHING GENOME ASSEMBLIES
 for strain in R7 HP126 DV3
 do
 java -Xmx16G -jar $PILON_HOME/pilon.jar \
