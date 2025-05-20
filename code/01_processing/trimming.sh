@@ -16,7 +16,7 @@ module load trimmomatic/0.39
 
 #PATHS USED
 export RAW="/proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023"
-export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed"
+export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/01_processing/trimmed"
 
 #TRIMMING SHORT DNA ILLUMINA READS FOR STRAINS DV3, HP126, R7
 for code in SRR24413065 SRR24413071 SRR24413080

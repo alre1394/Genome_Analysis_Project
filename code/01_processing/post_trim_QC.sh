@@ -15,8 +15,8 @@ module load bioinfo-tools
 module load FastQC/0.11.9
 
 #PATHS USED
-export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed"
-export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/processing/QC/post_trim"
+export TRIMMED="/home/alre1394/GA_PROJECT_PAPER2/data/01_processing/trimmed"
+export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/01_processing/QC/post_trim"
 
 #QC OF SHORT ILLUMINA READS AFTER TRIMMING
 fastqc -o "$OUTPUT/DNA" -t 6 "$TRIMMED/DNA/*.fq.gz"
