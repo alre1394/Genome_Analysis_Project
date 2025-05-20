@@ -1,0 +1,73 @@
+trimmomatic/0.39 loaded, see 'module help trimmomatic/0.39' for more information.
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/log/SRR24413065_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413065_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413065_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413065_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413065_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413065_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413065_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:100
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 1183170 Both Surviving: 1150059 (97.20%) Forward Only Surviving: 32794 (2.77%) Reverse Only Surviving: 0 (0.00%) Dropped: 317 (0.03%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/log/SRR24413071_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413071_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413071_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413071_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413071_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413071_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413071_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:100
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 1433028 Both Surviving: 1387404 (96.82%) Forward Only Surviving: 45259 (3.16%) Reverse Only Surviving: 0 (0.00%) Dropped: 365 (0.03%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/log/SRR24413080_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413080_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads/short_reads/SRR24413080_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413080_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413080_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413080_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA/SRR24413080_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:100
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 1073650 Both Surviving: 1039260 (96.80%) Forward Only Surviving: 34157 (3.18%) Reverse Only Surviving: 0 (0.00%) Dropped: 233 (0.02%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516456_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516456_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516456_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516456_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516456_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516456_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516456_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 9480313 Both Surviving: 9471324 (99.91%) Forward Only Surviving: 2854 (0.03%) Reverse Only Surviving: 5595 (0.06%) Dropped: 540 (0.01%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516457_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516457_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516457_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516457_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516457_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516457_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516457_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7702515 Both Surviving: 7701805 (99.99%) Forward Only Surviving: 346 (0.00%) Reverse Only Surviving: 163 (0.00%) Dropped: 201 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516458_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516458_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516458_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516458_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516458_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516458_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516458_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 7037800 Both Surviving: 7037345 (99.99%) Forward Only Surviving: 110 (0.00%) Reverse Only Surviving: 323 (0.00%) Dropped: 22 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516459_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516459_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516459_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516459_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516459_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516459_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516459_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 11114132 Both Surviving: 11113529 (99.99%) Forward Only Surviving: 213 (0.00%) Reverse Only Surviving: 261 (0.00%) Dropped: 129 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516460_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516460_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516460_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516460_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516460_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516460_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516460_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10834478 Both Surviving: 10833753 (99.99%) Forward Only Surviving: 364 (0.00%) Reverse Only Surviving: 248 (0.00%) Dropped: 113 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516461_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516461_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516461_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516461_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516461_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516461_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516461_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 9879994 Both Surviving: 9877685 (99.98%) Forward Only Surviving: 661 (0.01%) Reverse Only Surviving: 1374 (0.01%) Dropped: 274 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516462_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516462_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516462_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516462_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516462_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516462_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516462_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10113040 Both Surviving: 10112198 (99.99%) Forward Only Surviving: 405 (0.00%) Reverse Only Surviving: 309 (0.00%) Dropped: 128 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516463_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516463_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516463_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516463_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516463_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516463_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516463_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10121805 Both Surviving: 10119993 (99.98%) Forward Only Surviving: 699 (0.01%) Reverse Only Surviving: 906 (0.01%) Dropped: 207 (0.00%)
+TrimmomaticPE: Completed successfully
+TrimmomaticPE: Started with arguments:
+ -phred33 -threads 6 -trimlog /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/log/SRR24516464_trimlog.txt /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516464_1.fastq.gz /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/RNA_reads/SRR24516464_2.fastq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516464_forward_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516464_forward_unpaired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516464_reverse_paired.fq.gz /home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/RNA/SRR24516464_reverse_unpaired.fq.gz ILLUMINACLIP:/sw/bioinfo/trimmomatic/0.39/snowy/adapters/TruSeq3-PE.fa:2:30:10 MINLEN:36
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 0 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 10822178 Both Surviving: 10820014 (99.98%) Forward Only Surviving: 633 (0.01%) Reverse Only Surviving: 1325 (0.01%) Dropped: 206 (0.00%)
+TrimmomaticPE: Completed successfully
