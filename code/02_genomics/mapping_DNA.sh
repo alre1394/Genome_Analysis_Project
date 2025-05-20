@@ -16,8 +16,8 @@ module load bwa/0.7.18
 module load samtools/1.20
 
 #PATHS USED
-export TRIMMED_DNA="/home/alre1394/GA_PROJECT_PAPER2/data/processing/trimmed/DNA"
-export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies"
+export TRIMMED_DNA="/home/alre1394/GA_PROJECT_PAPER2/data/01_processing/trimmed/DNA"
+export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 
 #CONSTRUCTING FM-INDEX FOR THE REFERENCE GENOME OF STRAIN R7
 bwa index "$OUTPUT/R7/assembly/assembly.fasta"

@@ -15,7 +15,7 @@ module load bioinfo-tools
 module load Pilon/1.24
 
 #PATHS USED
-export ASSEMBLY="/home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies"
+export ASSEMBLY="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 
 ÂPOLISHING GENOME ASSEMBLIES
 for strain in R7 HP126 DV3
@@ -25,5 +25,7 @@ java -Xmx16G -jar $PILON_HOME/pilon.jar \
   --frags "$ASSEMBLY/${strain}/mapping/${strain}_sorted.bam" \
   --output ${strain}_genome_polished \
   --outdir "$ASSEMBLY/${strain}/polished" \
-  --threads 8
+  --threads 8 \
+  --changes \
+  --vcf
 done
