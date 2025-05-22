@@ -8,7 +8,7 @@
 #SBATCH -J GA_evaluation_alre1394
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
-#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/code_display/evaluation.out"
+#SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/00_code_display/evaluation.out"
 
 #IMPORTING MODULES
 module load bioinfo-tools
@@ -34,4 +34,13 @@ python /sw/bioinfo/quast/5.0.2/rackham/bin/quast.py "$ASSEMBLY/${strain}/polishe
   --threads 8 \
   -r "${REF_GEN}/${strain}_genome.fasta" \
   -o "$ASSEMBLY/${strain}/evaluation/polished"
+done
+
+#EVALUATION OF POLISHED FLIPPED ASSEMBLIES
+for strain in R7 DV3
+do
+python /sw/bioinfo/quast/5.0.2/rackham/bin/quast.py "$ASSEMBLY/${strain}/polished/${strain}_genome_polished_flipped.fasta" \
+  --threads 8 \
+  -r "${REF_GEN}/${strain}_genome.fasta" \
+  -o "$ASSEMBLY/${strain}/evaluation/polished_flipped"
 done

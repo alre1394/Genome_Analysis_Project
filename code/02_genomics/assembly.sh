@@ -10,13 +10,13 @@
 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
 #SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/00_code_display/assembly.out"
 
-#IMPRTING MODULES
+#IMPORTING MODULES
 module load bioinfo-tools
 module load Flye/2.9.5
 
 #PATHS USED
 export LONG_READS="/proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/DNA_reads"
-export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/"
+export OUTPUT="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 
 #ASSEMBLYING GENOME WITH LONG ONT SEQUENCES FROM STRAIN R7
 flye --nano-raw "$LONG_READS/SRR24413072.fastq.gz" \
