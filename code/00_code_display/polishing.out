@@ -1,0 +1,528 @@
+Usage: java -jar $PILON_HOME/pilon.jar other-options...
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+--threads argument no longer supported; ignoring!
+Genome: /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/assembly/assembly.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 9647712
+Scanning BAMs
+/home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/mapping/R7_sorted.bam: 2775840 reads, 0 filtered, 2766937 mapped, 2759428 proper, 2826 stray, FR 100% 409+/-90, max 680
+Processing contig_1:1-292402
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/mapping/R7_sorted.bam: coverage 128
+Total Reads: 137876, Coverage: 128, minDepth: 13
+Confirmed 291808 of 292402 bases (99.80%)
+Corrected 1 snps; 0 ambiguous bases; corrected 159 small insertions totaling 166 bases, 1 small deletions totaling 1 bases
+# Attempting to fix local continuity breaks
+fix break: contig_1:61230-61338 60985 -231 +234 BreakFix
+fix break: contig_1:63935-64097 63960 -412 +415 BreakFix
+fix break: contig_1:134902-135161 134838 -244 +247 BreakFix
+contig_1:1-292402 log:
+Finished processing contig_1:1-292402
+Processing contig_3:1-9355310
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/mapping/R7_sorted.bam: coverage 76
+Total Reads: 2633518, Coverage: 76, minDepth: 8
+Confirmed 9347430 of 9355310 bases (99.92%)
+Corrected 66 snps; 0 ambiguous bases; corrected 5754 small insertions totaling 5953 bases, 16 small deletions totaling 17 bases
+# Attempting to fix local continuity breaks
+# fix break: contig_3:6891-6965 0 -0 +0 NoSolution
+# fix break: contig_3:7927-8036 0 -0 +0 NoSolution
+fix break: contig_3:216022-216126 215975 -221 +225 BreakFix
+# fix break: contig_3:525894-525896 0 -0 +0 NoSolution
+fix break: contig_3:735117-735284 735171 -336 +341 BreakFix
+fix break: contig_3:811559-811822 811551 -228 +232 BreakFix
+fix break: contig_3:868466-868657 868343 -144 +146 BreakFix
+fix break: contig_3:1064061-1064296 1064460 -120 +122 BreakFix
+# fix break: contig_3:1067245-1067373 0 -0 +0 NoSolution
+fix break: contig_3:1099351-1099455 1099363 -284 +286 BreakFix
+fix break: contig_3:1335735-1336083 1335866 -354 +359 BreakFix
+# fix break: contig_3:1399428 0 -0 +0 NoSolution
+fix break: contig_3:1401982-1402022 1401998 -342 +344 BreakFix
+# fix break: contig_3:1448726-1448920 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_3:1495524-1495693 1495554 -364 +366 BreakFix
+fix break: contig_3:1540094-1540230 1540175 -115 +117 BreakFix
+# fix break: contig_3:1542036-1542103 0 -0 +0 NoSolution
+fix break: contig_3:1633215-1633336 1633235 -95 +99 BreakFix
+fix break: contig_3:1719428-1719646 1719428 -403 +405 BreakFix
+fix break: contig_3:1764839-1765255 1764585 -637 +640 BreakFix
+fix break: contig_3:2116890-2116906 2116871 -14 +17 BreakFix
+# fix break: contig_3:2222210-2222503 0 -0 +0 NoSolution
+fix break: contig_3:2247348-2247470 2247348 -112 +114 BreakFix
+fix break: contig_3:2531117-2531228 2531204 -46 +49 BreakFix
+fix break: contig_3:2534712-2534744 2534388 -711 +715 BreakFix
+fix break: contig_3:2544984-2545137 2544837 -117 +120 BreakFix
+fix break: contig_3:2656119-2656134 2656078 -36 +38 BreakFix
+# fix break: contig_3:2837037-2837351 0 -0 +0 NoSolution
+# fix break: contig_3:2852164-2852278 0 -0 +0 NoSolution
+fix break: contig_3:2912082-2912245 2912154 -198 +201 BreakFix
+fix break: contig_3:2965290-2965350 2965259 -26 +29 BreakFix
+fix break: contig_3:2992797-2992881 2992805 -58 +60 BreakFix
+fix break: contig_3:3069363-3069677 3069544 -401 +404 BreakFix
+fix break: contig_3:3194638-3194744 3194531 -168 +170 BreakFix
+fix break: contig_3:3208292-3208294 3208254 -377 +379 BreakFix
+fix break: contig_3:3241914-3241978 3241751 -135 +141 BreakFix
+# fix break: contig_3:3287946-3288039 0 -0 +0 NoSolution
+# fix break: contig_3:3324220-3324657 0 -0 +0 NoSolution
+# fix break: contig_3:3324966-3326207 0 -0 +0 NoSolution
+fix break: contig_3:3326749-3326999 3326749 -540 +543 BreakFix
+fix break: contig_3:3327263-3327295 3327134 -155 +157 BreakFix
+# fix break: contig_3:3420884-3421454 0 -0 +0 NoSolution TandemRepeat 42
+# fix break: contig_3:3441939-3441943 0 -0 +0 NoSolution
+# fix break: contig_3:3443881-3444047 0 -0 +0 NoSolution TandemRepeat 125
+fix break: contig_3:3506691-3506843 3506386 -441 +446 BreakFix
+fix break: contig_3:3508260-3508563 3508365 -198 +200 BreakFix
+# fix break: contig_3:3563620-3563808 0 -0 +0 NoSolution
+fix break: contig_3:3581053-3581179 3580985 -158 +161 BreakFix
+fix break: contig_3:3582792-3583085 3582913 -92 +95 BreakFix
+fix break: contig_3:3586431-3587085 3586439 -1006 +1011 BreakFix
+# fix break: contig_3:3600757-3600824 0 -0 +0 NoSolution
+fix break: contig_3:3607147-3607166 3606905 -569 +571 BreakFix
+fix break: contig_3:3612406-3612467 3612439 -220 +222 BreakFix
+# fix break: contig_3:3679498-3679656 0 -0 +0 NoSolution TandemRepeat 30
+fix break: contig_3:3778675-3778791 3778325 -810 +818 BreakFix
+fix break: contig_3:3809547-3809684 3809467 -63 +65 BreakFix
+fix break: contig_3:3833752-3833893 3833776 -466 +470 BreakFix
+# fix break: contig_3:3835843-3836422 0 -0 +0 NoSolution
+# fix break: contig_3:3836660-3836962 0 -0 +0 NoSolution
+fix break: contig_3:3853750-3853911 3853761 -300 +302 BreakFix
+# fix break: contig_3:3887329-3887407 0 -0 +0 NoSolution TandemRepeat 306
+fix break: contig_3:3909743-3909877 3910080 -67 +69 BreakFix
+fix break: contig_3:3969513-3969524 3969529 -223 +225 BreakFix
+fix break: contig_3:4001643-4001722 4001512 -166 +168 BreakFix
+fix break: contig_3:4075493-4075743 4075493 -533 +537 BreakFix
+fix break: contig_3:4106992-4107175 4107180 -185 +187 BreakFix
+fix break: contig_3:4114134-4114164 4113867 -465 +470 BreakFix
+fix break: contig_3:4374017-4374035 4373684 -615 +618 BreakFix
+# fix break: contig_3:4601491-4601606 0 -0 +0 NoSolution
+# fix break: contig_3:4602417-4602609 0 -0 +0 NoSolution
+fix break: contig_3:4658399-4658552 4658558 -9 +11 BreakFix
+fix break: contig_3:4675021-4675252 4675178 -39 +41 BreakFix
+fix break: contig_3:4836348-4836514 4836494 -21 +24 BreakFix
+fix break: contig_3:4863360-4863528 4863267 -128 +131 BreakFix
+# fix break: contig_3:4896581-4896849 0 -0 +0 NoSolution
+# fix break: contig_3:4938284-4938495 0 -0 +0 NoSolution TandemRepeat 123
+fix break: contig_3:4971921-4972297 4971927 -406 +411 BreakFix
+fix break: contig_3:4990582-4990794 4990477 -265 +267 BreakFix
+fix break: contig_3:5010960-5011116 5011089 -23 +25 BreakFix
+fix break: contig_3:5038210-5038546 5038218 -501 +504 BreakFix
+fix break: contig_3:5040723-5040880 5040528 -474 +477 BreakFix
+# fix break: contig_3:5052779-5053161 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_3:5059549-5059998 0 -0 +0 NoSolution TandemRepeat 144
+# fix break: contig_3:5096109-5096661 0 -0 +0 NoSolution
+# fix break: contig_3:5143177-5143239 0 -0 +0 NoSolution
+fix break: contig_3:5161008-5161328 5161008 -540 +545 BreakFix
+fix break: contig_3:5161563-5161776 5161388 -389 +393 BreakFix
+fix break: contig_3:5213107-5213286 5213067 -188 +190 BreakFix
+fix break: contig_3:5240852-5240992 5240619 -342 +344 BreakFix
+# fix break: contig_3:5282322-5282507 0 -0 +0 NoSolution
+fix break: contig_3:5286520-5286956 5286566 -706 +712 BreakFix
+fix break: contig_3:5412211-5412408 5412223 -395 +397 BreakFix
+# fix break: contig_3:5522359-5523083 0 -0 +0 NoSolution
+fix break: contig_3:5582418-5582655 5582235 -740 +745 BreakFix
+# fix break: contig_3:5622881-5623859 0 -0 +0 NoSolution TandemRepeat 60
+fix break: contig_3:5671487-5671551 5671585 -34 +36 BreakFix
+# fix break: contig_3:5734448-5734608 0 -0 +0 NoSolution
+fix break: contig_3:5777541-5777716 5777273 -458 +461 BreakFix
+fix break: contig_3:6119721-6119866 6119827 -251 +254 BreakFix
+fix break: contig_3:6209698-6209743 6209499 -358 +361 BreakFix
+fix break: contig_3:6266871-6267843 6267098 -600 +605 BreakFix
+fix break: contig_3:6282283-6282572 6282400 -172 +175 BreakFix
+fix break: contig_3:6616631-6616982 6616762 -29 +33 BreakFix
+fix break: contig_3:6640140-6640354 6639902 -453 +456 BreakFix
+# fix break: contig_3:6741281-6741415 0 -0 +0 NoSolution
+# fix break: contig_3:6813609-6813697 0 -0 +0 NoSolution TandemRepeat 8
+fix break: contig_3:6848466-6848718 6848283 -374 +377 BreakFix
+# fix break: contig_3:6875952-6876136 0 -0 +0 NoSolution TandemRepeat 5
+fix break: contig_3:6877464-6877670 6877878 -16 +18 BreakFix
+# fix break: contig_3:6882648-6882828 0 -0 +0 NoSolution
+fix break: contig_3:6962658-6963448 6962865 -862 +866 BreakFix
+# fix break: contig_3:6963692-6964275 0 -0 +0 NoSolution TandemRepeat 90
+# fix break: contig_3:7072859-7072989 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_3:7140730-7141110 0 -0 +0 NoSolution
+fix break: contig_3:7248852-7249079 7248529 -69 +72 BreakFix
+fix break: contig_3:7257822-7258062 7257619 -380 +383 BreakFix
+fix break: contig_3:7329370-7329376 7329382 -115 +118 BreakFix
+fix break: contig_3:7342842-7342914 7342487 -364 +366 BreakFix
+# fix break: contig_3:7633014-7633172 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_3:7636111-7636120 0 -0 +0 NoSolution
+# fix break: contig_3:7873893-7874122 0 -0 +0 NoSolution TandemRepeat 8
+fix break: contig_3:7935140-7935282 7935227 -252 +255 BreakFix
+# fix break: contig_3:7947138 0 -0 +0 NoSolution TandemRepeat 165
+# fix break: contig_3:7947353 0 -0 +0 NoSolution TandemRepeat 165
+# fix break: contig_3:8484586-8484634 0 -0 +0 NoSolution
+fix break: contig_3:8524217-8524310 8524358 -25 +27 BreakFix
+# fix break: contig_3:8627652-8627826 0 -0 +0 NoSolution
+# fix break: contig_3:9044269-9044422 0 -0 +0 NoSolution
+# fix break: contig_3:9350762-9350872 0 -0 +0 NoSolution
+# fix break: contig_3:9352475-9352528 0 -0 +0 NoSolution
+# fix break: contig_3:9353323-9353418 0 -0 +0 NoSolution
+# fix break: contig_3:9354048-9354215 0 -0 +0 NoSolution
+contig_3:1-9355310 log:
+Finished processing contig_3:1-9355310
+Writing updated contig_1_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/polished/R7_genome_polished.fasta
+Writing updated contig_3_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/polished/R7_genome_polished.fasta
+Mean frags coverage: 78
+Mean total coverage: 78
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+--threads argument no longer supported; ignoring!
+Genome: /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/assembly/assembly.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 8766746
+Scanning BAMs
+/home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/mapping/HP126_sorted.bam: 2301035 reads, 0 filtered, 2297176 mapped, 2291475 proper, 2702 stray, FR 100% 413+/-92, max 688
+Processing contig_1:1-6991808
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/mapping/HP126_sorted.bam: coverage 64
+Total Reads: 1643101, Coverage: 64, minDepth: 6
+Confirmed 6978206 of 6991808 bases (99.81%)
+Corrected 45 snps; 0 ambiguous bases; corrected 3990 small insertions totaling 4123 bases, 8 small deletions totaling 8 bases
+# Attempting to fix local continuity breaks
+# fix break: contig_1:5961-6249 0 -0 +0 NoSolution
+# fix break: contig_1:6842-6982 0 -0 +0 NoSolution
+# fix break: contig_1:7280-7884 0 -0 +0 NoSolution
+# fix break: contig_1:8100-10387 0 -0 +0 NoSolution
+# fix break: contig_1:10852-10937 0 -0 +0 NoSolution
+# fix break: contig_1:13744-13822 0 -0 +0 NoSolution
+# fix break: contig_1:25671-25798 0 -0 +0 NoSolution
+# fix break: contig_1:199106-199490 0 -0 +0 NoSolution
+# fix break: contig_1:320090-320267 0 -0 +0 NoSolution
+fix break: contig_1:364901-365109 364984 -12 +14 BreakFix
+fix break: contig_1:524807-524886 524807 -335 +341 BreakFix
+fix break: contig_1:601194-601486 601350 -74 +76 BreakFix
+fix break: contig_1:658117-658356 657994 -164 +167 BreakFix
+fix break: contig_1:690421-690434 690510 -10 +12 BreakFix
+fix break: contig_1:853718-853964 854128 -120 +122 BreakFix
+# fix break: contig_1:856913-857033 0 -0 +0 NoSolution
+# fix break: contig_1:1150940-1151386 0 -0 +0 NoSolution
+# fix break: contig_1:1219038-1219240 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1327711-1328285 0 -0 +0 NoSolution TandemRepeat 90
+fix break: contig_1:1328656-1329407 1328365 -863 +866 BreakFix
+# fix break: contig_1:1414417-1414580 0 -0 +0 NoSolution
+# fix break: contig_1:1415833-1416161 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_1:1443310-1443644 0 -0 +0 NoSolution
+# fix break: contig_1:1478409-1478576 0 -0 +0 NoSolution TandemRepeat 8
+# fix break: contig_1:1550700-1550847 0 -0 +0 NoSolution
+# fix break: contig_1:1558597-1558778 0 -0 +0 NoSolution
+fix break: contig_1:1651758-1651899 1651763 -453 +456 BreakFix
+# fix break: contig_1:1675112-1675476 0 -0 +0 NoSolution
+# fix break: contig_1:1705418-1705656 0 -0 +0 NoSolution
+# fix break: contig_1:1854525 0 -0 +0 NoSolution
+fix break: contig_1:2009599-2009796 2009574 -172 +175 BreakFix
+# fix break: contig_1:2024317-2025331 0 -0 +0 NoSolution
+fix break: contig_1:2082415-2082558 2082296 -359 +361 BreakFix
+fix break: contig_1:2172287-2172391 2172076 -252 +254 BreakFix
+fix break: contig_1:2509020-2509179 2508990 -459 +461 BreakFix
+# fix break: contig_1:2624425-2625338 0 -0 +0 NoSolution TandemRepeat 431
+fix break: contig_1:2662951-2663020 2662932 -439 +441 BreakFix
+fix break: contig_1:2665603-2665801 2665247 -738 +745 BreakFix
+fix break: contig_1:2725131-2725807 2725167 -725 +737 BreakFix
+fix break: contig_1:2835903-2836016 2835614 -395 +397 BreakFix
+fix break: contig_1:2961245-2961757 2960967 -707 +711 BreakFix
+# fix break: contig_1:2965716-2965920 0 -0 +0 NoSolution
+fix break: contig_1:3007246-3007391 3007277 -342 +345 BreakFix
+fix break: contig_1:3034956-3035178 3034991 -188 +191 BreakFix
+fix break: contig_1:3086467-3086732 3086467 -620 +625 BreakFix
+# fix break: contig_1:3086938-3087134 0 -0 +0 NoSolution
+fix break: contig_1:3104958-3104960 3104634 -451 +453 BreakFix
+# fix break: contig_1:3151559-3151997 0 -0 +0 NoSolution
+# fix break: contig_1:3188267-3188750 0 -0 +0 NoSolution TandemRepeat 144
+# fix break: contig_1:3195053-3195433 0 -0 +0 NoSolution TandemRepeat 1
+fix break: contig_1:3207357-3207521 3207242 -474 +477 BreakFix
+fix break: contig_1:3209681-3210025 3209525 -257 +259 BreakFix
+fix break: contig_1:3237126-3237248 3237126 -23 +25 BreakFix
+fix break: contig_1:3257399-3257668 3257496 -264 +267 BreakFix
+fix break: contig_1:3275945-3276244 3275903 -406 +411 BreakFix
+# fix break: contig_1:3309741-3309791 0 -0 +0 NoSolution TandemRepeat 123
+# fix break: contig_1:3351414-3351708 0 -0 +0 NoSolution
+fix break: contig_1:3361823-3361958 3361924 -129 +131 BreakFix
+fix break: contig_1:3388809-3388998 3388809 -21 +24 BreakFix
+fix break: contig_1:3549998-3550266 3550079 -39 +41 BreakFix
+fix break: contig_1:3566859-3566894 3566735 -9 +11 BreakFix
+# fix break: contig_1:3622690-3622881 0 -0 +0 NoSolution
+# fix break: contig_1:3623629-3623812 0 -0 +0 NoSolution
+fix break: contig_1:3719352-3719610 3719534 -347 +349 BreakFix
+fix break: contig_1:3851247-3851291 3851008 -549 +551 BreakFix
+fix break: contig_1:4111160-4111226 4110988 -465 +470 BreakFix
+fix break: contig_1:4118152-4118227 4117942 -198 +201 BreakFix
+fix break: contig_1:4200129-4200185 4200174 -166 +168 BreakFix
+# fix break: contig_1:4229346-4229643 0 -0 +0 NoSolution
+fix break: contig_1:4232298-4232346 4232082 -223 +225 BreakFix
+# fix break: contig_1:4314418-4314511 0 -0 +0 NoSolution TandemRepeat 306
+fix break: contig_1:4347936-4348095 4347789 -300 +302 BreakFix
+# fix break: contig_1:4362550-4362589 0 -0 +0 NoSolution
+# fix break: contig_1:4364897-4365214 0 -0 +0 NoSolution
+fix break: contig_1:4365508-4366006 4365564 -797 +801 BreakFix
+fix break: contig_1:4368048-4368103 4367760 -316 +319 BreakFix
+# fix break: contig_1:4522330-4522374 0 -0 +0 NoSolution TandemRepeat 30
+fix break: contig_1:4589435-4589436 4589210 -220 +222 BreakFix
+fix break: contig_1:4594700-4594748 4594395 -569 +571 BreakFix
+# fix break: contig_1:4614723-4614957 0 -0 +0 NoSolution
+# fix break: contig_1:4615207-4615439 0 -0 +0 NoSolution
+fix break: contig_1:4618868-4619106 4618868 -92 +95 BreakFix
+fix break: contig_1:4620689-4620853 4620730 -158 +161 BreakFix
+# fix break: contig_1:4638065-4638257 0 -0 +0 NoSolution
+fix break: contig_1:4693430-4693618 4693313 -196 +200 BreakFix
+fix break: contig_1:4695030-4695176 4695047 -343 +346 BreakFix
+# fix break: contig_1:4757838-4757913 0 -0 +0 NoSolution TandemRepeat 125
+fix break: contig_1:4759911-4760020 4759911 -400 +402 BreakFix
+# fix break: contig_1:4780475-4780948 0 -0 +0 NoSolution TandemRepeat 42
+fix break: contig_1:4874587-4875148 4874609 -540 +543 BreakFix
+# fix break: contig_1:4875707-4876854 0 -0 +0 NoSolution
+# fix break: contig_1:4877244-4877591 0 -0 +0 NoSolution
+# fix break: contig_1:4913859-4913965 0 -0 +0 NoSolution
+fix break: contig_1:5132287-5132539 5131983 -401 +404 BreakFix
+fix break: contig_1:5209048-5209125 5209068 -341 +344 BreakFix
+fix break: contig_1:5236516-5236646 5236646 -26 +29 BreakFix
+fix break: contig_1:5289679-5289882 5289587 -198 +201 BreakFix
+# fix break: contig_1:5364672-5364846 0 -0 +0 NoSolution
+fix break: contig_1:5545798-5545856 5545756 -132 +135 BreakFix
+fix break: contig_1:5656853-5656982 5657037 -117 +120 BreakFix
+# fix break: contig_1:5667296-5667338 0 -0 +0 NoSolution
+fix break: contig_1:5670765-5670860 5670744 -46 +49 BreakFix
+fix break: contig_1:5867521-5867720 5867672 -274 +276 BreakFix
+fix break: contig_1:5873628-5873901 5873758 -259 +261 BreakFix
+fix break: contig_1:5954492-5954660 5954549 -112 +114 BreakFix
+# fix break: contig_1:5981015-5981450 0 -0 +0 NoSolution
+fix break: contig_1:6085041-6085125 6085112 -14 +16 BreakFix
+fix break: contig_1:6482408-6482636 6482212 -402 +405 BreakFix
+fix break: contig_1:6568571-6568838 6568581 -181 +185 BreakFix
+# fix break: contig_1:6659986-6659998 0 -0 +0 NoSolution
+fix break: contig_1:6706385-6706535 6706142 -364 +366 BreakFix
+fix break: contig_1:6753137-6753226 6753070 -510 +514 BreakFix
+fix break: contig_1:6800043-6800139 6799724 -342 +344 BreakFix
+fix break: contig_1:6865970-6866350 6866170 -107 +112 BreakFix
+fix break: contig_1:6957498-6957746 6957303 -339 +341 BreakFix
+contig_1:1-6991808 log:
+Finished processing contig_1:1-6991808
+Processing contig_2:1-170367
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/mapping/HP126_sorted.bam: coverage 92
+Total Reads: 57695, Coverage: 92, minDepth: 9
+Confirmed 169966 of 170367 bases (99.76%)
+Corrected 3 snps; 0 ambiguous bases; corrected 92 small insertions totaling 94 bases, 1 small deletions totaling 1 bases
+# Attempting to fix local continuity breaks
+fix break: contig_2:12780-13013 12686 -244 +247 BreakFix
+contig_2:1-170367 log:
+Finished processing contig_2:1-170367
+Processing contig_3:1-550785
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/mapping/HP126_sorted.bam: coverage 152
+Total Reads: 306882, Coverage: 152, minDepth: 15
+Confirmed 548072 of 550785 bases (99.51%)
+Corrected 4 snps; 0 ambiguous bases; corrected 327 small insertions totaling 338 bases, 0 small deletions totaling 0 bases
+Large collapsed region: contig_3:2562-13816 size 11255
+Large collapsed region: contig_3:16151-32460 size 16310
+# Attempting to fix local continuity breaks
+fix break: contig_3:307846-308005 307695 -183 +185 BreakFix
+# fix break: contig_3:310834-311115 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_3:534011-534013 0 -0 +0 NoSolution
+# fix break: contig_3:537399-537463 0 -0 +0 NoSolution
+# fix break: contig_3:539153-539293 0 -0 +0 NoSolution
+# fix break: contig_3:541952-542110 0 -0 +0 NoSolution
+# fix break: contig_3:542935-543025 0 -0 +0 NoSolution
+# fix break: contig_3:544151-544253 0 -0 +0 NoSolution
+# fix break: contig_3:545209-545455 0 -0 +0 NoSolution
+contig_3:1-550785 log:
+Finished processing contig_3:1-550785
+Processing contig_4:1-1053786
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/mapping/HP126_sorted.bam: coverage 75
+Total Reads: 292237, Coverage: 75, minDepth: 8
+Confirmed 1047450 of 1053786 bases (99.40%)
+Corrected 2 snps; 0 ambiguous bases; corrected 585 small insertions totaling 599 bases, 3 small deletions totaling 3 bases
+Large collapsed region: contig_4:912863-1053618 size 140756
+# Attempting to fix local continuity breaks
+# fix break: contig_4:5374-6182 0 -0 +0 NoSolution
+# fix break: contig_4:6500-6577 0 -0 +0 NoSolution
+# fix break: contig_4:7383-7496 0 -0 +0 NoSolution
+# fix break: contig_4:14282-14413 0 -0 +0 NoSolution
+# fix break: contig_4:16233-16347 0 -0 +0 NoSolution
+# fix break: contig_4:385049-385088 0 -0 +0 NoSolution TandemRepeat 165
+fix break: contig_4:396831-397050 396805 -160 +162 BreakFix
+# fix break: contig_4:457993-458286 0 -0 +0 NoSolution TandemRepeat 8
+fix break: contig_4:699024-699186 699024 -332 +334 BreakFix
+fix break: contig_4:1036486-1036488 1036469 -12 +14 BreakFix
+contig_4:1-1053786 log:
+Finished processing contig_4:1-1053786
+Writing updated contig_1_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta
+Writing updated contig_2_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta
+Writing updated contig_3_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta
+Writing updated contig_4_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta
+Mean frags coverage: 71
+Mean total coverage: 71
+Pilon version 1.24 Thu Jan 28 13:00:45 2021 -0500
+--threads argument no longer supported; ignoring!
+Genome: /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/assembly/assembly.fasta
+Fixing snps, indels, gaps, local
+Input genome size: 8779498
+Scanning BAMs
+/home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/mapping/DV3_sorted.bam: 2079163 reads, 0 filtered, 2075378 mapped, 2069751 proper, 2560 stray, FR 100% 412+/-90, max 683
+Processing contig_1:1-192132
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/mapping/DV3_sorted.bam: coverage 60
+Total Reads: 42662, Coverage: 60, minDepth: 6
+Confirmed 183406 of 192132 bases (95.46%)
+Corrected 3 snps; 0 ambiguous bases; corrected 77 small insertions totaling 82 bases, 0 small deletions totaling 0 bases
+# Attempting to fix local continuity breaks
+fix break: contig_1:157297-157552 157375 -244 +247 BreakFix
+# fix break: contig_1:178495-178647 0 -0 +0 NoSolution
+# fix break: contig_1:179055-179312 0 -0 +0 NoSolution
+# fix break: contig_1:183027-183605 0 -0 +0 NoSolution
+# fix break: contig_1:184289-187504 0 -0 +0 NoSolution
+contig_1:1-192132 log:
+Finished processing contig_1:1-192132
+Processing contig_2:1-7004539
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/mapping/DV3_sorted.bam: coverage 50
+Total Reads: 1300473, Coverage: 50, minDepth: 5
+Confirmed 6974806 of 7004539 bases (99.58%)
+Corrected 31 snps; 0 ambiguous bases; corrected 3208 small insertions totaling 3320 bases, 19 small deletions totaling 19 bases
+Large collapsed region: contig_2:6977066-6990867 size 13802
+# Attempting to fix local continuity breaks
+# fix break: contig_2:10117-11117 0 -0 +0 NoSolution
+# fix break: contig_2:11433-12183 0 -0 +0 NoSolution
+# fix break: contig_2:12672-12773 0 -0 +0 NoSolution
+# fix break: contig_2:15302-15407 0 -0 +0 NoSolution
+# fix break: contig_2:22661-22963 0 -0 +0 NoSolution
+fix break: contig_2:64143-64457 64342 -339 +341 BreakFix
+fix break: contig_2:155627-156010 155719 -413 +418 BreakFix
+fix break: contig_2:221759-221954 221937 -342 +344 BreakFix
+fix break: contig_2:268729-268882 268433 -450 +453 BreakFix
+# fix break: contig_2:285903-285952 0 -0 +0 NoSolution TandemRepeat 191
+# fix break: contig_2:360096-360193 0 -0 +0 NoSolution
+fix break: contig_2:361940-362136 361632 -318 +322 BreakFix
+# fix break: contig_2:445697-445698 0 -0 +0 NoSolution TandemRepeat 9
+fix break: contig_2:453237-453396 453228 -95 +99 BreakFix
+# fix break: contig_2:855459-855474 0 -0 +0 NoSolution TandemRepeat 567
+fix break: contig_2:936980-937033 936961 -14 +17 BreakFix
+# fix break: contig_2:1040583-1041049 0 -0 +0 NoSolution
+fix break: contig_2:1154350-1154569 1154159 -274 +276 BreakFix
+fix break: contig_2:1351256-1351356 1351332 -46 +49 BreakFix
+# fix break: contig_2:1354815-1354857 0 -0 +0 NoSolution
+fix break: contig_2:1362886 1362778 -71 +73 BreakFix
+fix break: contig_2:1476267-1476327 1476253 -36 +38 BreakFix
+# fix break: contig_2:1657349-1657571 0 -0 +0 NoSolution
+fix break: contig_2:1732287-1732587 1732381 -198 +201 BreakFix
+fix break: contig_2:1785526-1785637 1785501 -26 +29 BreakFix
+fix break: contig_2:1813049-1813167 1813049 -58 +60 BreakFix
+fix break: contig_2:1889642-1889869 1889794 -401 +404 BreakFix
+fix break: contig_2:2062219-2062229 2062042 -138 +143 BreakFix
+# fix break: contig_2:2108238-2108302 0 -0 +0 NoSolution
+# fix break: contig_2:2139055-2139268 0 -0 +0 NoSolution
+# fix break: contig_2:2144540-2146441 0 -0 +0 NoSolution
+# fix break: contig_2:2147058-2147308 0 -0 +0 NoSolution
+fix break: contig_2:2147632 2147437 -161 +163 BreakFix
+# fix break: contig_2:2241241-2241825 0 -0 +0 NoSolution TandemRepeat 42
+# fix break: contig_2:2264238-2264384 0 -0 +0 NoSolution TandemRepeat 125
+fix break: contig_2:2327081-2327212 2326753 -443 +446 BreakFix
+fix break: contig_2:2328668-2328969 2328734 -197 +200 BreakFix
+fix break: contig_2:2384065-2384206 2384141 -411 +415 BreakFix
+# fix break: contig_2:2384529-2384551 0 -0 +0 NoSolution
+fix break: contig_2:2401406-2401554 2401359 -159 +161 BreakFix
+fix break: contig_2:2403171-2403381 2403345 -36 +38 BreakFix
+# fix break: contig_2:2406809-2407035 0 -0 +0 NoSolution
+# fix break: contig_2:2407284-2407505 0 -0 +0 NoSolution
+fix break: contig_2:2432761-2432940 2432822 -220 +222 BreakFix
+# fix break: contig_2:2499951-2500034 0 -0 +0 NoSolution TandemRepeat 30
+# fix break: contig_2:2505914-2506036 0 -0 +0 NoSolution
+fix break: contig_2:2598912-2599364 2598738 -795 +800 BreakFix
+fix break: contig_2:2629951-2630063 2629883 -63 +65 BreakFix
+fix break: contig_2:2656265-2656810 2655913 -797 +801 BreakFix
+# fix break: contig_2:2657035-2657321 0 -0 +0 NoSolution
+fix break: contig_2:2659720-2659768 2659719 -193 +196 BreakFix
+# fix break: contig_2:2792653-2792951 0 -0 +0 NoSolution
+fix break: contig_2:2822008-2822174 2821966 -166 +168 BreakFix
+fix break: contig_2:2904086-2904136 2904351 -9 +11 BreakFix
+fix break: contig_2:2911055-2911152 2910852 -467 +470 BreakFix
+# fix break: contig_2:3126258-3126364 0 -0 +0 NoSolution
+fix break: contig_2:3134267-3134277 3133968 -455 +459 BreakFix
+fix break: contig_2:3171043-3171105 3170783 -548 +551 BreakFix
+# fix break: contig_2:3399490-3399659 0 -0 +0 NoSolution
+fix break: contig_2:3472114-3472393 3472264 -39 +41 BreakFix
+# fix break: contig_2:3480048-3480273 0 -0 +0 NoSolution
+fix break: contig_2:3508667-3508740 3508743 -237 +239 BreakFix
+# fix break: contig_2:3633419-3633651 0 -0 +0 NoSolution
+# fix break: contig_2:3670693-3671030 0 -0 +0 NoSolution
+# fix break: contig_2:3673167-3673371 0 -0 +0 NoSolution
+# fix break: contig_2:3712475-3712659 0 -0 +0 NoSolution TandemRepeat 123
+# fix break: contig_2:3746173-3746465 0 -0 +0 NoSolution
+fix break: contig_2:3764748-3764988 3764652 -264 +267 BreakFix
+fix break: contig_2:3785115-3785287 3785266 -22 +25 BreakFix
+fix break: contig_2:3812395-3812729 3812395 -501 +504 BreakFix
+# fix break: contig_2:3826952-3827337 0 -0 +0 NoSolution
+# fix break: contig_2:3833680-3834125 0 -0 +0 NoSolution TandemRepeat 144
+# fix break: contig_2:3840687-3840802 0 -0 +0 NoSolution
+# fix break: contig_2:3870336-3870823 0 -0 +0 NoSolution
+# fix break: contig_2:3871791-3871989 0 -0 +0 NoSolution
+fix break: contig_2:3935299-3935519 3935348 -246 +248 BreakFix
+# fix break: contig_2:3935754-3936017 0 -0 +0 NoSolution
+fix break: contig_2:3987287-3987483 3987268 -187 +190 BreakFix
+fix break: contig_2:4015165-4015193 4014832 -348 +350 BreakFix
+# fix break: contig_2:4056558-4056735 0 -0 +0 NoSolution
+# fix break: contig_2:4060764-4061265 0 -0 +0 NoSolution
+fix break: contig_2:4296650-4297349 4296852 -466 +475 BreakFix
+fix break: contig_2:4356690-4356938 4356721 -526 +529 BreakFix
+# fix break: contig_2:4397198-4398158 0 -0 +0 NoSolution TandemRepeat 431
+fix break: contig_2:4513371-4513483 4513055 -459 +461 BreakFix
+# fix break: contig_2:4665396-4665568 0 -0 +0 NoSolution
+fix break: contig_2:4850131-4850250 4850212 -251 +254 BreakFix
+# fix break: contig_2:4997275-4998298 0 -0 +0 NoSolution
+fix break: contig_2:5012769-5013016 5012820 -172 +175 BreakFix
+fix break: contig_2:5240673-5241037 5240343 -368 +370 BreakFix
+# fix break: contig_2:5347170-5347499 0 -0 +0 NoSolution
+fix break: contig_2:5370663-5370840 5370388 -453 +456 BreakFix
+# fix break: contig_2:5470166-5470752 0 -0 +0 NoSolution
+# fix break: contig_2:5544092-5544229 0 -0 +0 NoSolution TandemRepeat 8
+# fix break: contig_2:5578987-5579302 0 -0 +0 NoSolution
+# fix break: contig_2:5606408-5606875 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_2:5607993-5608191 0 -0 +0 NoSolution
+fix break: contig_2:5680619-5680649 5680642 -56 +58 BreakFix
+# fix break: contig_2:5693205-5693986 0 -0 +0 NoSolution
+# fix break: contig_2:5694322-5694950 0 -0 +0 NoSolution TandemRepeat 90
+# fix break: contig_2:5803428-5803576 0 -0 +0 NoSolution TandemRepeat 1
+# fix break: contig_2:5871281-5871770 0 -0 +0 NoSolution
+# fix break: contig_2:5873102-5873280 0 -0 +0 NoSolution
+# fix break: contig_2:6165606-6165782 0 -0 +0 NoSolution
+fix break: contig_2:6364411-6364604 6364564 -164 +167 BreakFix
+fix break: contig_2:6421225-6421486 6421306 -31 +33 BreakFix
+fix break: contig_2:6497794-6497939 6497592 -336 +341 BreakFix
+# fix break: contig_2:6657558-6657832 0 -0 +0 NoSolution
+# fix break: contig_2:6702462-6702659 0 -0 +0 NoSolution
+# fix break: contig_2:6823352-6823553 0 -0 +0 NoSolution
+# fix break: contig_2:6984357-6984445 0 -0 +0 NoSolution
+# fix break: contig_2:6987831-6987917 0 -0 +0 NoSolution
+# fix break: contig_2:6988290-6988368 0 -0 +0 NoSolution
+# fix break: contig_2:6989048-6989129 0 -0 +0 NoSolution
+contig_2:1-7004539 log:
+Finished processing contig_2:1-7004539
+Processing contig_3:1-1032000
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/mapping/DV3_sorted.bam: coverage 109
+Total Reads: 416410, Coverage: 109, minDepth: 11
+Confirmed 1030403 of 1032000 bases (99.85%)
+Corrected 1 snps; 0 ambiguous bases; corrected 566 small insertions totaling 581 bases, 2 small deletions totaling 2 bases
+# Attempting to fix local continuity breaks
+# fix break: contig_3:3517-3595 0 -0 +0 NoSolution
+# fix break: contig_3:4017-4111 0 -0 +0 NoSolution
+# fix break: contig_3:8757-9026 0 -0 +0 NoSolution
+fix break: contig_3:17250-17320 17309 -12 +14 BreakFix
+fix break: contig_3:50915-51003 50991 -115 +118 BreakFix
+fix break: contig_3:103935 103853 -76 +78 BreakFix
+fix break: contig_3:354647-354785 354454 -332 +334 BreakFix
+# fix break: contig_3:595519-595685 0 -0 +0 NoSolution TandemRepeat 8
+fix break: contig_3:656717-656885 656830 -252 +255 BreakFix
+fix break: contig_3:767838-767878 767882 -340 +343 BreakFix
+fix break: contig_3:794121-794190 794186 -98 +101 BreakFix
+contig_3:1-1032000 log:
+Finished processing contig_3:1-1032000
+Processing contig_4:1-550827
+frags /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/mapping/DV3_sorted.bam: coverage 157
+Total Reads: 318728, Coverage: 157, minDepth: 16
+Confirmed 548987 of 550827 bases (99.67%)
+Corrected 3 snps; 0 ambiguous bases; corrected 298 small insertions totaling 307 bases, 0 small deletions totaling 0 bases
+# Attempting to fix local continuity breaks
+# fix break: contig_4:1509-1570 0 -0 +0 NoSolution
+# fix break: contig_4:2697-2767 0 -0 +0 NoSolution
+# fix break: contig_4:3044-3188 0 -0 +0 NoSolution
+# fix break: contig_4:5359-5484 0 -0 +0 NoSolution
+# fix break: contig_4:6557-6616 0 -0 +0 NoSolution
+# fix break: contig_4:239690-239926 0 -0 +0 NoSolution
+contig_4:1-550827 log:
+Finished processing contig_4:1-550827
+Writing updated contig_1_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta
+Writing updated contig_2_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta
+Writing updated contig_3_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta
+Writing updated contig_4_pilon to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta
+Mean frags coverage: 64
+Mean total coverage: 64

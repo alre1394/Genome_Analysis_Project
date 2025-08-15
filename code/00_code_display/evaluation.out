@@ -1,4 +1,4 @@
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished
 
 Version: 5.0.2
 
@@ -7,11 +7,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:14:32
+Started: 2025-05-20 22:52:29
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -21,9 +22,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/assembly/assembly.fasta ==> assembly
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/assembly/assembly.fasta ==> assembly
 
-2025-05-19 22:14:40
+2025-05-20 22:52:33
 Running Basic statistics processor...
   Reference genome:
     R7_genome.fasta, length = 9660595, num fragments = 2, GC % = 71.88
@@ -32,47 +33,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     assembly, N50 = 9355310, L50 = 1, Total length = 9647712, GC % = 71.87, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/basic_stats/GC_content_plot.pdf
   Drawing assembly GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:14:44
+2025-05-20 22:52:37
 Running Contig analyzer...
   assembly
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
-  Aligning contigs to the reference
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
+  Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:14:51
+2025-05-20 22:52:40
 Running NA-NGA calculation...
   assembly, Largest alignment = 9355306, NA50 = 9355306, NGA50 = 9355306, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:14:53
+2025-05-20 22:52:42
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -84,28 +85,28 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:14:57
+2025-05-20 22:52:45
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:14:59
+2025-05-20 22:52:47
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/unpolished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/unpolished/quast.log
 
-Finished: 2025-05-19 22:14:59
-Elapsed time: 0:00:26.874561
-NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2025-05-20 22:52:47
+Elapsed time: 0:00:18.001180
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/HP126_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/HP126_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished
 
 Version: 5.0.2
 
@@ -114,11 +115,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:14:59
+Started: 2025-05-20 22:52:48
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -128,9 +130,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/assembly/assembly.fasta ==> assembly
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/assembly/assembly.fasta ==> assembly
 
-2025-05-19 22:15:02
+2025-05-20 22:52:50
 Running Basic statistics processor...
   Reference genome:
     HP126_genome.fasta, length = 9619655, num fragments = 2, GC % = 71.93
@@ -139,47 +141,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     assembly, N50 = 6991808, L50 = 1, Total length = 8766746, GC % = 71.99, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/basic_stats/GC_content_plot.pdf
   Drawing assembly GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:15:05
+2025-05-20 22:52:54
 Running Contig analyzer...
   assembly
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
-  Aligning contigs to the reference
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
+  Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:15:12
+2025-05-20 22:52:57
 Running NA-NGA calculation...
   assembly, Largest alignment = 6991808, NA50 = 6991808, NGA50 = 6991808, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:15:13
+2025-05-20 22:52:58
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -191,28 +193,28 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:15:16
+2025-05-20 22:53:02
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:15:18
+2025-05-20 22:53:04
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/unpolished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/unpolished/quast.log
 
-Finished: 2025-05-19 22:15:18
-Elapsed time: 0:00:18.958119
-NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2025-05-20 22:53:04
+Elapsed time: 0:00:15.893478
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/assembly/assembly.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished
 
 Version: 5.0.2
 
@@ -221,11 +223,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:15:19
+Started: 2025-05-20 22:53:04
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -235,9 +238,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/assembly/assembly.fasta ==> assembly
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/assembly/assembly.fasta ==> assembly
 
-2025-05-19 22:15:21
+2025-05-20 22:53:07
 Running Basic statistics processor...
   Reference genome:
     DV3_genome.fasta, length = 10838897, num fragments = 2, GC % = 72.03
@@ -246,47 +249,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     assembly, N50 = 7004539, L50 = 1, Total length = 8779498, GC % = 71.98, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/basic_stats/GC_content_plot.pdf
   Drawing assembly GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/basic_stats/assembly_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:15:25
+2025-05-20 22:53:10
 Running Contig analyzer...
   assembly
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
-  Aligning contigs to the reference
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/contigs_report_assembly.stdout and contigs_report_assembly.stderr...
+  Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:15:32
+2025-05-20 22:53:14
 Running NA-NGA calculation...
   assembly, Largest alignment = 7004539, NA50 = 7004539, NGA50 = 7004539, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:15:33
+2025-05-20 22:53:15
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -298,28 +301,28 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:15:37
+2025-05-20 22:53:19
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:15:39
+2025-05-20 22:53:21
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/unpolished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/unpolished/quast.log
 
-Finished: 2025-05-19 22:15:39
-Elapsed time: 0:00:20.007555
-NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2025-05-20 22:53:21
+Elapsed time: 0:00:16.609987
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/polished/R7_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/polished/R7_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished
 
 Version: 5.0.2
 
@@ -328,12 +331,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:15:39
+Started: 2025-05-20 22:53:21
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/quast.log
 NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -343,9 +346,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/polished/R7_genome_polished.fasta ==> R7_genome_polished
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/polished/R7_genome_polished.fasta ==> R7_genome_polished
 
-2025-05-19 22:15:41
+2025-05-20 22:53:23
 Running Basic statistics processor...
   Reference genome:
     R7_genome.fasta, length = 9660595, num fragments = 2, GC % = 71.88
@@ -354,47 +357,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     R7_genome_polished, N50 = 9361413, L50 = 1, Total length = 9653987, GC % = 71.89, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/basic_stats/GC_content_plot.pdf
   Drawing R7_genome_polished GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/basic_stats/R7_genome_polished_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/basic_stats/R7_genome_polished_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:15:45
+2025-05-20 22:53:26
 Running Contig analyzer...
   R7_genome_polished
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/contigs_report_R7_genome_polished.stdout and contigs_report_R7_genome_polished.stderr...
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/contigs_report_R7_genome_polished.stdout and contigs_report_R7_genome_polished.stderr...
   Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:15:48
+2025-05-20 22:53:30
 Running NA-NGA calculation...
   R7_genome_polished, Largest alignment = 9361409, NA50 = 9361409, NGA50 = 9361409, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:15:49
+2025-05-20 22:53:31
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -406,28 +409,28 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:15:53
+2025-05-20 22:53:35
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:15:54
+2025-05-20 22:53:37
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/R7/evaluation/polished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished/quast.log
 
-Finished: 2025-05-19 22:15:54
-Elapsed time: 0:00:15.334264
+Finished: 2025-05-20 22:53:37
+Elapsed time: 0:00:15.404038
 NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/HP126_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/polished/HP126_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/HP126_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished
 
 Version: 5.0.2
 
@@ -436,11 +439,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:15:55
+Started: 2025-05-20 22:53:37
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -450,9 +454,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/polished/HP126_genome_polished.fasta ==> HP126_genome_polished
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/polished/HP126_genome_polished.fasta ==> HP126_genome_polished
 
-2025-05-19 22:15:57
+2025-05-20 22:53:39
 Running Basic statistics processor...
   Reference genome:
     HP126_genome.fasta, length = 9619655, num fragments = 2, GC % = 71.93
@@ -461,47 +465,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     HP126_genome_polished, N50 = 6996068, L50 = 1, Total length = 8772043, GC % = 72.00, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/basic_stats/GC_content_plot.pdf
   Drawing HP126_genome_polished GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/basic_stats/HP126_genome_polished_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/basic_stats/HP126_genome_polished_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:16:00
+2025-05-20 22:53:42
 Running Contig analyzer...
   HP126_genome_polished
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/contigs_report_HP126_genome_polished.stdout and contigs_report_HP126_genome_polished.stderr...
-  Aligning contigs to the reference
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/contigs_report_HP126_genome_polished.stdout and contigs_report_HP126_genome_polished.stderr...
+  Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:16:06
+2025-05-20 22:53:45
 Running NA-NGA calculation...
   HP126_genome_polished, Largest alignment = 6996068, NA50 = 6996068, NGA50 = 6996068, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:16:07
+2025-05-20 22:53:47
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -513,28 +517,28 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:16:11
+2025-05-20 22:53:50
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:16:13
+2025-05-20 22:53:52
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/HP126/evaluation/polished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/HP126/evaluation/polished/quast.log
 
-Finished: 2025-05-19 22:16:13
-Elapsed time: 0:00:17.997160
-NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+Finished: 2025-05-20 22:53:52
+Elapsed time: 0:00:15.231520
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
-/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/polished/DV3_genome_polished.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished
 
 Version: 5.0.2
 
@@ -543,11 +547,12 @@ System information:
   Python version: 3.7.2
   CPUs number: 16
 
-Started: 2025-05-19 22:16:13
+Started: 2025-05-20 22:53:53
 
-Logging to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/quast.log
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/quast.log
+NOTICE: Output directory already exists and looks like a QUAST output dir. Existing results can be reused (e.g. previously generated alignments)!
 
-CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/genomics
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
 Main parameters: 
   MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
   ambiguity: one, threshold for extensive misassembly size: 1000
@@ -557,9 +562,9 @@ Reference:
 
 Contigs:
   Pre-processing...
-  /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/polished/DV3_genome_polished.fasta ==> DV3_genome_polished
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/polished/DV3_genome_polished.fasta ==> DV3_genome_polished
 
-2025-05-19 22:16:15
+2025-05-20 22:53:55
 Running Basic statistics processor...
   Reference genome:
     DV3_genome.fasta, length = 10838897, num fragments = 2, GC % = 72.03
@@ -568,47 +573,47 @@ Running Basic statistics processor...
   Calculating N50 and L50...
     DV3_genome_polished, N50 = 7007948, L50 = 1, Total length = 8783893, GC % = 72.00, # N's per 100 kbp =  0.00
   Drawing Nx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/basic_stats/Nx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/basic_stats/Nx_plot.pdf
   Drawing NGx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/basic_stats/NGx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/basic_stats/NGx_plot.pdf
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/basic_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/basic_stats/cumulative_plot.pdf
   Drawing GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/basic_stats/GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/basic_stats/GC_content_plot.pdf
   Drawing DV3_genome_polished GC content plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/basic_stats/DV3_genome_polished_GC_content_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/basic_stats/DV3_genome_polished_GC_content_plot.pdf
 Done.
 
-2025-05-19 22:16:19
+2025-05-20 22:53:58
 Running Contig analyzer...
   DV3_genome_polished
-  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/contigs_report_DV3_genome_polished.stdout and contigs_report_DV3_genome_polished.stderr...
-  Aligning contigs to the reference
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/contigs_report_DV3_genome_polished.stdout and contigs_report_DV3_genome_polished.stderr...
+  Using existing alignments... 
   Analysis is finished.
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
   Transposed version of total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
   Creating total report...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
   Drawing misassemblies by types plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_plot.pdf
   Drawing misassemblies FRCurve plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/contigs_reports/misassemblies_frcurve_plot.pdf
 Done.
 
-2025-05-19 22:16:25
+2025-05-20 22:54:01
 Running NA-NGA calculation...
   DV3_genome_polished, Largest alignment = 7007948, NA50 = 7007948, NGA50 = 7007948, LA50 = 1, LGA50 = 1
   Drawing cumulative plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/aligned_stats/cumulative_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/aligned_stats/cumulative_plot.pdf
   Drawing NAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/aligned_stats/NAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/aligned_stats/NAx_plot.pdf
   Drawing NGAx plot...
-    saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/aligned_stats/NGAx_plot.pdf
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/aligned_stats/NGAx_plot.pdf
 Done.
 
-2025-05-19 22:16:27
+2025-05-20 22:54:03
 Running Genome analyzer...
   NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
 
@@ -620,24 +625,238 @@ Done.
 
 NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
 
-2025-05-19 22:16:31
+2025-05-20 22:54:07
 Creating large visual summaries...
 This may take a while: press Ctrl-C to skip this step..
   1 of 2: Creating Icarus viewers...
   2 of 2: Creating PDF with all tables and plots...
 Done
 
-2025-05-19 22:16:33
+2025-05-20 22:54:09
 RESULTS:
-  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/report.txt, report.tsv, and report.tex
-  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
-  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/report.html
-  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/report.pdf
-  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/icarus.html
-  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/genomics/assemblies/DV3/evaluation/polished/quast.log
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished/quast.log
 
-Finished: 2025-05-19 22:16:33
-Elapsed time: 0:00:19.274823
+Finished: 2025-05-20 22:54:09
+Elapsed time: 0:00:15.929201
+NOTICEs: 4; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/polished/R7_genome_polished_flipped.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2025-05-20 22:54:09
+
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/quast.log
+
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
+Main parameters: 
+  MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/R7_genome.fasta ==> R7_genome
+
+Contigs:
+  Pre-processing...
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/polished/R7_genome_polished_flipped.fasta ==> R7_genome_polished_flipped
+
+2025-05-20 22:54:11
+Running Basic statistics processor...
+  Reference genome:
+    R7_genome.fasta, length = 9660595, num fragments = 2, GC % = 71.88
+  Contig files: 
+    R7_genome_polished_flipped
+  Calculating N50 and L50...
+    R7_genome_polished_flipped, N50 = 9361413, L50 = 1, Total length = 9653987, GC % = 71.89, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/basic_stats/GC_content_plot.pdf
+  Drawing R7_genome_polished_flipped GC content plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/basic_stats/R7_genome_polished_flipped_GC_content_plot.pdf
+Done.
+
+2025-05-20 22:54:14
+Running Contig analyzer...
+  R7_genome_polished_flipped
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/contigs_report_R7_genome_polished_flipped.stdout and contigs_report_R7_genome_polished_flipped.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2025-05-20 22:54:22
+Running NA-NGA calculation...
+  R7_genome_polished_flipped, Largest alignment = 9361409, NA50 = 9361409, NGA50 = 9361409, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/aligned_stats/NGAx_plot.pdf
+Done.
+
+2025-05-20 22:54:23
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  R7_genome_polished_flipped
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-05-20 22:54:27
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2025-05-20 22:54:28
+RESULTS:
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/R7/evaluation/polished_flipped/quast.log
+
+Finished: 2025-05-20 22:54:29
+Elapsed time: 0:00:19.618204
+NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
+
+Thank you for using QUAST!
+/sw/bioinfo/quast/5.0.2/rackham/bin/quast.py /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/polished/DV3_genome_polished_flipped.fasta --threads 8 -r /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta -o /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped
+
+Version: 5.0.2
+
+System information:
+  OS: Linux-3.10.0-1160.119.1.el7.x86_64-x86_64-with-centos-7.9.2009-Core (linux_64)
+  Python version: 3.7.2
+  CPUs number: 16
+
+Started: 2025-05-20 22:54:29
+
+Logging to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/quast.log
+
+CWD: /domus/h1/alre1394/GA_PROJECT_PAPER2/code/02_genomics
+Main parameters: 
+  MODE: default, threads: 8, minimum contig length: 500, minimum alignment length: 65, \
+  ambiguity: one, threshold for extensive misassembly size: 1000
+
+Reference:
+  /proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/reference_genome/DV3_genome.fasta ==> DV3_genome
+
+Contigs:
+  Pre-processing...
+  /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/polished/DV3_genome_polished_flipped.fasta ==> DV3_genome_polished_flipped
+
+2025-05-20 22:54:31
+Running Basic statistics processor...
+  Reference genome:
+    DV3_genome.fasta, length = 10838897, num fragments = 2, GC % = 72.03
+  Contig files: 
+    DV3_genome_polished_flipped
+  Calculating N50 and L50...
+    DV3_genome_polished_flipped, N50 = 7007948, L50 = 1, Total length = 8783893, GC % = 72.00, # N's per 100 kbp =  0.00
+  Drawing Nx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/basic_stats/Nx_plot.pdf
+  Drawing NGx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/basic_stats/NGx_plot.pdf
+  Drawing cumulative plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/basic_stats/cumulative_plot.pdf
+  Drawing GC content plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/basic_stats/GC_content_plot.pdf
+  Drawing DV3_genome_polished_flipped GC content plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/basic_stats/DV3_genome_polished_flipped_GC_content_plot.pdf
+Done.
+
+2025-05-20 22:54:34
+Running Contig analyzer...
+  DV3_genome_polished_flipped
+  Logging to files /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/contigs_report_DV3_genome_polished_flipped.stdout and contigs_report_DV3_genome_polished_flipped.stderr...
+  Aligning contigs to the reference
+  Analysis is finished.
+  Creating total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/misassemblies_report.txt, misassemblies_report.tsv, and misassemblies_report.tex
+  Transposed version of total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/transposed_report_misassemblies.txt, transposed_report_misassemblies.tsv, and transposed_report_misassemblies.tex
+  Creating total report...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/unaligned_report.txt, unaligned_report.tsv, and unaligned_report.tex
+  Drawing misassemblies by types plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/misassemblies_plot.pdf
+  Drawing misassemblies FRCurve plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/contigs_reports/misassemblies_frcurve_plot.pdf
+Done.
+
+2025-05-20 22:54:41
+Running NA-NGA calculation...
+  DV3_genome_polished_flipped, Largest alignment = 7007948, NA50 = 7007948, NGA50 = 7007948, LA50 = 1, LGA50 = 1
+  Drawing cumulative plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/aligned_stats/cumulative_plot.pdf
+  Drawing NAx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/aligned_stats/NAx_plot.pdf
+  Drawing NGAx plot...
+    saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/aligned_stats/NGAx_plot.pdf
+Done.
+
+2025-05-20 22:54:42
+Running Genome analyzer...
+  NOTICE: No file with genomic features were provided. Use the --features option if you want to specify it.
+
+  NOTICE: No file with operons were provided. Use the -O option if you want to specify it.
+  DV3_genome_polished_flipped
+  Analysis is finished.
+  Skipping drawing Genome fraction, % histogram... (less than 2 columns histogram makes no sense)
+Done.
+
+NOTICE: Genes are not predicted by default. Use --gene-finding or --glimmer option to enable it.
+
+2025-05-20 22:54:46
+Creating large visual summaries...
+This may take a while: press Ctrl-C to skip this step..
+  1 of 2: Creating Icarus viewers...
+  2 of 2: Creating PDF with all tables and plots...
+Done
+
+2025-05-20 22:54:48
+RESULTS:
+  Text versions of total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/report.txt, report.tsv, and report.tex
+  Text versions of transposed total report are saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/transposed_report.txt, transposed_report.tsv, and transposed_report.tex
+  HTML version (interactive tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/report.html
+  PDF version (tables and plots) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/report.pdf
+  Icarus (contig browser) is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/icarus.html
+  Log is saved to /home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies/DV3/evaluation/polished_flipped/quast.log
+
+Finished: 2025-05-20 22:54:48
+Elapsed time: 0:00:19.395324
 NOTICEs: 3; WARNINGs: 0; non-fatal ERRORs: 0
 
 Thank you for using QUAST!
