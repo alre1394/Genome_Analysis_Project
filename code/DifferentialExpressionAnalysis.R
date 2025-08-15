@@ -145,8 +145,8 @@ resOrdered_HP126_DV3 <- res_HP126_DV3_LFC[order(res_HP126_DV3_LFC$padj), ]
 summary(resOrdered_HP126_DV3)
 write.csv(as.data.frame(resOrdered_HP126_DV3), file = "DESeq2_DV3_HP126_results.csv")
 
-#Info from specific genes
-resOrdered_HP126_R7["BOCGMJEH_02925", ]
+#Metrics of specific genes in the DESeq2 result matrix
+resOrdered_HP126_R7["BOCGMJEH_00794", ]
 
 ###Filtering the results by most significant features and showing the 10 most
 sigGenes_HP126_R7 <- subset(resOrdered_HP126_R7, padj < 0.05)
