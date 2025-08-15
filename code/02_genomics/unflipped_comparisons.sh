@@ -18,13 +18,13 @@ module load blast/2.15.0+
 export ASSEMBLY="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 export OUTPUT="$ASSEMBLY/comparisons"
 
-#GENOME ALIGNMENT OF POLISHED GENOMES AGAINST HP126 FOR VISUAL COMPARISON WITH ACT
+#GENOME ALIGNMENT OF THE POLISHED GENOMES OF STRAINS R7 AND DV3 AGAINST STRAIN HP126
 blastn -query "$ASSEMBLY/R7/polished/R7_genome_polished.fasta" \
        -subject "$ASSEMBLY/HP126/polished/HP126_genome_polished.fasta" \
-       -out "$OUTPUT/R7_HP126_comparison.txt" \
+       -out "$OUTPUT/R7_HP126.txt" \
        -outfmt 6
 
 blastn -query "$ASSEMBLY/DV3/polished/DV3_genome_polished.fasta" \
        -subject "$ASSEMBLY/HP126/polished/HP126_genome_polished.fasta" \
-       -out "$OUTPUT/DV3_HP126_comparison.txt" \
+       -out "$OUTPUT/DV3_HP126.txt" \
        -outfmt 6

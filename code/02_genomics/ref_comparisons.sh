@@ -6,10 +6,11 @@
 #SBATCH -n 8
 #SBATCH -t 04:00:00
 #SBATCH -J GA_REF_comparisons_alre1394
-#SBATCH --mail-type=ALL                                                                                                 #SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user alexander-robert.renlund.1394@student.uu.se
 #SBATCH --output="/home/alre1394/GA_PROJECT_PAPER2/code/00_code_display/REF_comparisons.out"
 
-#IMPORTING MODULES                                                                                                                        #IMPORTING MODULES
+#IMPORTING MODULES
 module load bioinfo-tools
 module load blast/2.15.0+
 
@@ -22,15 +23,15 @@ export OUTPUT="$ASSEMBLY/comparisons"
 #POLISHED GENOMES WITH CORRECT ORIENTATIONS RELATIVE TO REFERENCE
 blastn -query "$ASSEMBLY/R7/polished/R7_genome_polished.fasta" \
        -subject "$REFERENCE/R7_genome.fasta" \
-       -out "$OUTPUT/REF_R7_comparison.txt" \
+       -out "$OUTPUT/REF_R7.txt" \
        -outfmt 6
 
 blastn -query "$ASSEMBLY/HP126/polished/HP126_genome_polished.fasta" \
        -subject "$REFERENCE/HP126_genome.fasta" \
-       -out "$OUTPUT/REF_HP126_comparison.txt" \
+       -out "$OUTPUT/REF_HP126.txt" \
        -outfmt 6
 
 blastn -query "$ASSEMBLY/DV3/polished/DV3_genome_polished.fasta" \
        -subject "$REFERENCE/DV3_genome.fasta" \
-       -out "$OUTPUT/REF_DV3_comparison.txt" \
+       -out "$OUTPUT/REF_DV3.txt" \
        -outfmt 6

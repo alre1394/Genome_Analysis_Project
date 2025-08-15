@@ -18,14 +18,14 @@ export REFERENCE="/proj/uppmax2025-3-3/Genome_Analysis/2_Beganovic_2023/referenc
 export ASSEMBLY="/home/alre1394/GA_PROJECT_PAPER2/data/02_genomics/assemblies"
 export OUTPUT="$ASSEMBLY/comparisons"
 
-#GENOME ALIGNMENT OF THE FLIPPED R7 POLISHED GENOME AND HP126 POLISHED GENOME FOR VISUAL COMPARISON WITH ACT
+#GENOME ALIGNMENT OF THE POLISHED, FLIPPED GENOMES OF STRAINS R7 AND THE POLISHED, UNFLIPPED GENOME OF STRAIN HP126
 blastn -query "$ASSEMBLY/R7/polished/R7_genome_polished_flipped.fasta" \
        -subject "$ASSEMBLY/HP126/polished/HP126_genome_polished.fasta" \
-       -out "$OUTPUT/R7_flipped_HP126_comparison.txt" \
+       -out "$OUTPUT/R7_flipped_HP126.txt" \
        -outfmt 6
 
-#GENOME ALIGNMENT OF THE FLIPPED DV3 POLISHED GENOME AND HP126 POLISHED GENOME FOR VISUAL COMPARISON WITH ACT
+#GENOME ALIGNMENT OF THE POLISHED, FLIPPED GENOMES OF STRAINS DV3 AND THE POLISHED, UNFLIPPED GENOME OF STRAIN HP126
 blastn -query "$ASSEMBLY/DV3/polished/DV3_genome_polished_flipped.fasta" \
        -subject "$ASSEMBLY/HP126/polished/HP126_genome_polished.fasta" \
-       -out "$OUTPUT/DV3_flipped_HP126_comparison.txt" \
+       -out "$OUTPUT/DV3_flipped_HP126.txt" \
        -outfmt 6
